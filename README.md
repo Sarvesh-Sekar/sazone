@@ -1,56 +1,95 @@
-# Welcome to your Expo app 👋
+# 🍽️ Sazone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Your daily nutrition companion.**
 
-## Get started
+Sazone is a mobile meal and nutrition tracking application built with React Native and Expo. It helps users track their daily food intake, monitor calories and macronutrients, and stay aware of their nutrition goals through a simple and intuitive interface.
 
-1. Install dependencies
+## ✨ Features
+
+- **Daily Nutrition Dashboard** – View your daily calorie intake and nutrition progress.
+- **Meal Tracking** – Add and manage meals throughout the day.
+- **Macronutrient Tracking** – Monitor protein, carbohydrates, and fat consumption.
+- **Daily Nutrition Goals** – Compare your intake against daily nutrition targets.
+- **Meal Summary** – Copy or share your daily nutrition summary.
+- **Meal History** – View recently added meals and track your food intake.
+- **Mobile Navigation** – Navigate between Home, Add Meal, and All Meals screens.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React Native | Mobile application development |
+| Expo | Development and native builds |
+| Expo Router | File-based navigation |
+| JavaScript | Application logic |
+| React Hooks | State and component lifecycle management |
+
+## 📱 Screenshots
+
+_Add application screenshots here._
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Expo Go or an Android development environment
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/sazone.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd sazone
+   ```
+
+3. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Start the Expo development server:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+5. Open the application using Expo Go or an Android emulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📦 Android Build
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Sazone uses Expo Application Services (EAS) for Android builds.
 
-## Get a fresh project
-
-When you're ready, run:
+To generate an Android APK:
 
 ```bash
-npm run reset-project
+npx eas build --platform android --profile preview
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+## 🎯 Project Goal
 
-### Other setup steps
+The goal of Sazone is to make everyday nutrition tracking simple, accessible, and convenient through a focused mobile experience.
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## 📌 Future Improvements
 
-## Learn more
+- Food database integration.
+- Nutrition analytics and historical charts.
+- Weekly and monthly nutrition reports.
+- Improved meal categorization.
+- Personalized nutrition recommendations.
 
-To learn more about developing your project with Expo, look at the following resources:
+## 👨‍💻 Author
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Developed as a personal mobile application project.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+**Sazone – Track your meals. Understand your nutrition.**
